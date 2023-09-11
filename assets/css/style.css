@@ -1,7 +1,11 @@
-* {
-    margin: o;
-    padding: 0;
-    font-size: 1rem;
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+.container {
+    position: relative;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
+  
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; 
+  }
