@@ -1,4 +1,4 @@
-# Anti-Hack Quiz
+# Anti-Cracker Quiz
 
 ![](./)
 
