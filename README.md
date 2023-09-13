@@ -1,4 +1,4 @@
-# Anti-Cracker Quiz
+# Anti-hack Quiz
 
 ![](./)
 
@@ -14,15 +14,15 @@ Youtube: (EM BREVE)
 
 ## Sobre
 
-(EM BREVE)
+É um quiz com tema de segurança anti-hack, para que não se corra o risco de ter a sua senha roubada na internet.
 
 ### Objetivos
 
-(EM BREVE)
+Aprender com funciona a criação de um Quiz usando Javascript.
 
 ### Desafio
 
-(EM BREVE)
+Conhecer como é feito um questionário usando o Javascript.
 
 ### Conclusão
 
@@ -32,4 +32,4 @@ Youtube: (EM BREVE)
 
 - HTML
 - CSS
-- Javascript 
+- Javascript
