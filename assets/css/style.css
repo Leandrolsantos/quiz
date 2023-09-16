@@ -74,13 +74,13 @@ body {
   font-family: 'Exo', sans-serif;
   font-size: 1rem;
   text-shadow: 1px 1px 2px black;
-  color: #ffffff;
+  color: #ffffffec;
   background-color: #09b5b5;
   margin: 0;
 }
 
 h1, h2, h3, h4 {
-  color: #6be978;
+  color: #38ec4af9;
   margin-top: 0;
 }
 
@@ -135,7 +135,7 @@ h3 {
 }
 
 .button:hover:active {
-  box-shadow: inset 1.2px 1.2px 2.2px black;
+  box-shadow: inset 1.22px 1.22px 2.22px black;
   background-color: rgba(103, 103, 103, 0.816) !important;
   color: rgb(0, 255, 255);
 }
@@ -147,6 +147,6 @@ h3 {
 #progress_bar {
   background-color: #e6e60c;
   width: 20%;
-  height: 0.63rem;
+  height: 0.7rem;
   transition: all 110ms ease-in-out;
 }
