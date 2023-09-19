@@ -18,11 +18,11 @@ Youtube: (EM BREVE)
 
 ### Objetivos
 
-Aprender com funciona a criação de um Quiz usando Javascript.
+Aprender com funciona a criação de um Quiz usando Javascript. Criar uma experiência para o usuário mais dinâmica, oferecendo uns score ao final do quiz.
 
 ### Desafio
 
-Conhecer como é feito um questionário usando o Javascript.
+Conhecer como é feito um questionário usando o Javascript. Estou aprendendo através de uma aula no Youtube, em breve irei postar aqui dando os créditos.
 
 ### Conclusão
 
