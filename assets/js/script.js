@@ -49,3 +49,20 @@ function getInfoBasedOnScore(){
     return score_info;
 }
 
+var submit1 = document.getElementById('submit1');
+var submit2 = document.getElementById('submit2');
+var submit3 = document.getElementById('submit3');
+var submit4 = document.getElementById('submit4');
+var submit5 = document.getElementById('submit5');
+
+function nextQuestion(question_number){
+    var current_question_number = question_number - 1;
+    var question_number = question_number.toString();
+    var current_question_number = current_question_number.toString();
+
+    var el = document.getElementById('question-'+question_number);
+    var el2 = document.getElementById('question-'+current_question_number);
+
+    el.style.display = "block";
+    el2.style.display = "none";
+}
