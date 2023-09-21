@@ -9,7 +9,7 @@ var question_five = document.getElementById('question-5');
 function storeAnswer(question_number, event){
     if(event.target.type === 'radio'){
         console.log(event.target.value);
-        answers[`question`+question_number] = parseInt(event.target.value);
+        answers['question'+question_number] = parseInt(event.target.value);
         console.log(answers);
     }
 }
@@ -35,8 +35,10 @@ function totalScore(){
     answers.question1+
     answers.question2+
     answers.question3+
-    answers.question4+
-    answers.question5+
+    answers.question4+ 
+    answers.question5;
+    
+    return total_score;
 }
 
 function getInfoBasedOnScore(){
@@ -65,4 +67,34 @@ function nextQuestion(question_number){
 
     el.style.display = "block";
     el2.style.display = "none";
+}
+
+submit1.addEventListener('click', function(){
+    nextQuestion(2);
+    growProgressBar('20%');
+})
+submit2.addEventListener('click', function(){
+    nextQuestion(3);
+    growProgressBar('20%');
+})
+submit3.addEventListener('click', function(){
+    nextQuestion(4);
+    growProgressBar('20%');
+})
+submit4.addEventListener('click', function(){
+    nextQuestion(5);
+    growProgressBar('20%');
+})
+submit5.addEventListener('click', function(){
+    nextQuestion(6);
+})
+
+submit5.addEventListener('click', function(){
+    document.getElementById("printtotalscore").innerHTML = totalScore();
+    document.getElementById("printscoreinfo").innerHTML = getInfoBasedOnScore();
+})
+
+function growProgressBar(percentage_with){
+    var bar = document.getElementById("progress_bar");
+    bar.style.width = percentage_with;
 }
