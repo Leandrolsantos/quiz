@@ -71,19 +71,19 @@ function nextQuestion(question_number){
 
 submit1.addEventListener('click', function(){
     nextQuestion(2);
-    growProgressBar('20%');
+    growProgressBar('40%');
 })
 submit2.addEventListener('click', function(){
     nextQuestion(3);
-    growProgressBar('20%');
+    growProgressBar('60%');
 })
 submit3.addEventListener('click', function(){
     nextQuestion(4);
-    growProgressBar('20%');
+    growProgressBar('80%');
 })
 submit4.addEventListener('click', function(){
     nextQuestion(5);
-    growProgressBar('20%');
+    growProgressBar('100%');
 })
 submit5.addEventListener('click', function(){
     nextQuestion(6);
