@@ -1,24 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Roboto+Slab:wght@600&display=swap');
 
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
-  padding-top: 10px;
-  box-sizing: border-box;
-  margin-top: 10rem;
+body {
+  font-family: 'Exo', sans-serif;
+  font-size: 1.1rem;
+  text-shadow: 1.1px 1.1px 2.1px black;
+  color: #ffffffec;
+  background-color: rgb(39, 191, 241);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 0.3rem solid black;
-  background-color: rgba(47, 104, 145, 0.829);
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.773);
+  margin: 0;
+  padding: 0;
 }
 
-.top-text{
-  margin-top: 1rem;
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  margin-top: 5%;
+  padding: 10%;
+  box-sizing: border-box;
+}
+
+.quiz-text{
+  margin-top: 10%;
+  margin-left: 10%;
 }
 
 .column {
@@ -89,17 +96,12 @@
   clear: both;
 }
 
-body {
-  font-family: 'Exo', sans-serif;
-  font-size: 1rem;
-  text-shadow: 1.1px 1.1px 2.1px black;
-  color: #ffffffec;
-  background: url("/assets/img/bck1.jpg");
-}
 
 h1, h2, h3, h4 {
-  color: #38ec4af9;
-  margin-top: 0;
+  color: #32e863f9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0.5rem;
 }
 
 h1 {
@@ -126,11 +128,11 @@ h3 {
 }
 
 .button {
-  margin: 10px 0 0 0;
+  margin: 5px 0 0 0;
   float: right;
   cursor: pointer;
   font-size: 1em;
-  border: 1px solid rgba(5, 94, 78);
+  border: 1px solid rgb(5, 12, 94);
   border-radius: 20px;
   padding: 10px 15px;
   line-height: 1.12rem;
@@ -149,13 +151,13 @@ h3 {
   transition: 200ms ease-in;
 
   box-shadow: 1.21px 1.2px 2.3px black;
-  background-color: rgba(58, 163, 9, 0.847);
+  background-color: rgba(255, 170, 0, 0.838);
 }
 
 .button:hover:active {
   box-shadow: inset 1.22px 1.22px 2.22px black;
   background-color: rgba(103, 103, 103, 0.816) !important;
-  color: rgb(0, 255, 255);
+  color: rgba(0, 255, 255);
 }
 
 #question-2, #question-3, #question-4, #question-5, #question-6 {
@@ -163,7 +165,8 @@ h3 {
 }
 
 #progress_bar {
-  background-color: #e6e60c;
+  background-color: rgba(255, 170, 0, 0.838);
+  box-shadow: 1px 1px 2px black;
   width: 20%;
   height: 0.7rem;
   margin-bottom: 1.6rem;
