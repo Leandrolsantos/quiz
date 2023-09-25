@@ -26,7 +26,7 @@ Conhecer como é feito um questionário usando o Javascript. Estou aprendendo at
 
 ### Conclusão
 
-(EM BREVE)
+Finalizei mais este projeto com bom aproveitamento. Aprendi novos comandos em JS, assim como consegui compreender como funciona um Quiz usando o JS. O vídeo utlizado foi do Canal Feature Code no Youtube (https://youtu.be/XnH56whHQqw?si=oh6NEu5B1phD6yeR), possui uma exclente didática, recomendo bastante esta aula e principalmente o canal.
 
 ### Ferramentas Utilizadas
 
