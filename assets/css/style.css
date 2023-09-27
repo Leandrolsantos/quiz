@@ -98,7 +98,7 @@ body {
 
 
 h1, h2, h3, h4 {
-  color: #32e863f9;
+  color: #53f641f9;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0.5rem;
@@ -113,7 +113,16 @@ h2 {
 }
 
 h3 {
-  font-size: 1.7rem;  
+  font-size: 1.7rem;
+}
+
+#progress_bar {
+  background-color: rgb(255, 140, 0);
+  box-shadow: 1px 1px 2px black;
+  width: 20%;
+  height: 0.5rem;
+  margin-bottom: 1rem;
+  transition: all 110ms ease-in-out;
 }
 
 /* Question Animation */
@@ -122,6 +131,8 @@ h3 {
   margin-left: 10px;
   cursor: pointer;  
 }
+
+/* Question Animation - End */
 
 .center {
   text-align: center;
@@ -181,14 +192,14 @@ button:hover::before {
   display: none;
 }
 
-#progress_bar {
-  background-color: rgba(255, 170, 0, 0.838);
-  box-shadow: 1px 1px 2px black;
-  width: 20%;
-  height: 0.5rem;
-  margin-bottom: 1rem;
-  transition: all 110ms ease-in-out;
+#question-2, #question-3, #question-4, #question-5, #question-6 {
+  transition: 1s ease-in-out;
 }
+
+#question-2, #question-3, #question-4, #question-5, #question-6:hover {
+  transition: 1s ease-in-out;
+}
+
 
 /* Balls Animation */
 
