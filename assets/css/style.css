@@ -3,9 +3,10 @@
 body {
   font-family: 'Exo', sans-serif;
   font-size: 1.1rem;
-  text-shadow: 1.1px 1.1px 2.1px black;
-  color: #ffffffec;
-  background-color: rgb(39, 191, 241);
+  text-shadow: 1.2px 1.2px 2px rgb(0, 0, 0);
+  color: #ffffff;
+  background: linear-gradient(hsl(195, 53%, 79%), hsl(120, 73%, 75%), hsl(39, 100%, 50%)) no-repeat;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,9 +19,10 @@ body {
   position: relative;
   width: 100%;
   max-width: 1024px;
-  margin-top: 5%;
   padding: 10%;
   box-sizing: border-box;
+  margin-bottom: 15rem;
+  margin-left: 25rem;
 }
 
 .quiz-text{
@@ -29,7 +31,7 @@ body {
 }
 
 .column {
-  margin-bottom: 1.52rem;
+  margin-bottom: 3rem;
   width: 100%;
   float: left;
   box-sizing: border-box;
@@ -98,7 +100,7 @@ body {
 
 
 h1, h2, h3, h4 {
-  color: #53f641f9;
+  color: hsl(176, 88%, 66%);
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0.5rem;
@@ -117,7 +119,7 @@ h3 {
 }
 
 #progress_bar {
-  background-color: rgb(255, 140, 0);
+  background-color: hsl(33, 92%, 59%);
   box-shadow: 1px 1px 2px black;
   width: 20%;
   height: 0.5rem;
@@ -160,7 +162,8 @@ h3 {
   color: white;
   overflow: hidden;
   box-shadow: 1.21px 1.2px 2.3px black;
-  background-color: rgba(255, 170, 0, 0.838);
+  background-color: hsl(40, 100%, 50%, 0.838);
+  transition: 100ms ease;
 }
 
 button::before {
@@ -174,14 +177,15 @@ button::before {
   border-radius: 50%;
   background-color: #3cefff;
   transform-origin: center;
-  transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
-  transition: transform 0.45s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 
 .button:hover {
   box-shadow: inset 1.22px 1.22px 2.22px black;
-  color: rgb(255, 229, 63);
-  background-color: hsl(262, 67%, 74%);
+  color: rgb(255, 255, 255);
+  background-color: hsl(262, 77%, 84%);
+  text-shadow: 1.5px 1.5px 2px rgb(0, 0, 0);
+  transform: scale(1.01);
 }
 
 button:hover::before {
