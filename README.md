@@ -6,7 +6,7 @@
 
 ![](./assets/img/2.jpg)
 
-Deploy: (EM BREVE)
+Deploy: https://quiz-five-pied.vercel.app/
 
 Youtube: https://youtu.be/8SuOL734NSs
 
